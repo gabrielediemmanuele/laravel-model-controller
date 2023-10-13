@@ -15,7 +15,9 @@
 </head>
 
 <body>
+   {{--*  Connection to partials _navbar default  --}}
   <header>@include('partials._navbar')</header>
+   {{--* homepage and movies "stencil" --}}
   <main>@yield('main-content')</main>
   <footer></footer>
 </body>

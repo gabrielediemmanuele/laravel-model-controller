@@ -1,3 +1,4 @@
+{{-- simple card partial for movies --}}
 <div class="card bg-dark text-warning" style="width: 14rem; Height: 18rem;">
     <div class="card-header h6 bg-warning text-dark">
       Titolo: {{ $movie->title }}

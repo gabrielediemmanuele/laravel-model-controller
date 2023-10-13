@@ -1,3 +1,4 @@
+{{-- simple navbar partial - all the information come from web.php for the routes  --}}
 <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand text-danger " href="{{ route('homepage')}}" > <span class="text-light h4">GHOST</span> <span class="text-warning h4">HUB</span></a>

@@ -9,11 +9,13 @@ use App\Models\Movie;
 
 class PageController extends Controller
 {
+    /* homepage function  */
     public function index()
     {
         $movies = Movie::all();
         return view('homepage', compact('movies'));
     }
+    /* movies-list function  */
     public function list()
     {
         $movies = Movie::all();

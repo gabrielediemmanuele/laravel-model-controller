@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* route for homepage - connect to Controller folder */
 Route::get('/', [PageController::class, 'index'])->name('homepage');
+/* route for movies-list page */
 Route::get('/movies-list', [PageController::class, 'list'])->name('movies-list');
