@@ -1,1 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
+
+.nav-item {
+    .nav-link:hover {
+        color: white !important;
+    }
+}
+
+body {
+    background-image: url(/public/img/wp1945909-movie-posters-wallpapers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn:hover {
+    color: white !important;
+    font-weight: bolder !important;
+}
+
+.card {
+    box-shadow: 0px 0px 3px 1px rgb(0, 0, 0);
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}

@@ -1,11 +1,11 @@
-<div class="card" style="width: 14rem; Height: 18rem;">
-    <div class="card-header h6">
+<div class="card bg-dark text-warning" style="width: 14rem; Height: 18rem;">
+    <div class="card-header h6 bg-warning text-dark">
       Titolo: {{ $movie->title }}
     </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">Titolo Originale: {{ $movie->original_title }}</li>
-      <li class="list-group-item">Nazionalità: {{ $movie->nationality }}</li>
-      <li class="list-group-item">Data: {{ $movie->date }}</li>
-      <li class="list-group-item">Voto: {{ $movie->vote }}</li>
+      <li class="list-group-item bg-dark text-light">Titolo Originale: {{ $movie->original_title }}</li>
+      <li class="list-group-item bg-dark text-light">Nazionalità: {{ $movie->nationality }}</li>
+      <li class="list-group-item bg-dark text-light">Data: {{ $movie->date }}</li>
+      <li class="list-group-item bg-dark text-light">Voto: {{ $movie->vote }}</li>
     </ul>
   </div>
